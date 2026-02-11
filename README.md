@@ -23,3 +23,8 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
 - Teacher
 - Class
 - Subject
+
+  ID	NAME	AGE
+		
+		<img width="298" height="92" alt="image" src="https://github.com/user-attachments/assets/aaedd84e-922d-4e0d-ad9e-34b3217b8ac6" />
+
