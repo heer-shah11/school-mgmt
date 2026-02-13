@@ -1,11 +1,11 @@
 # School Management System
 *A DBMS simple project using JavaScript and Mariadb*
 
-## Project description
+## Project description:
 The school management system is a simple database project developed as part of a DBMS mini project.
 It uses  **MariaDB** for database management and **JavaScript** for front-end interaction.
 
-## Objectives
+## Objectives:
 - To understand DBMS concepts 
 - To design relational database tables
 - To maintain structured records of students,teachers,subjects, and attendance
