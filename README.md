@@ -11,14 +11,14 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
 - To maintain structured records of students,teachers,subjects, and attendance
 - To use MariaDB with Intellij IDEA
 
-## Technologies Used
+## Technologies Used:
 - JavaScript- Front-end logic
 - HTML & CSS- User interface and styling
 - MariaDB- Dbms
 - Intellij IDEA
 - Github
 
-## Tables
+## Tables:
 - Student
 - Teacher
 - Attendance
@@ -29,7 +29,7 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
 - One student can have attendance records for multiple subjects
 - Attedance table connects students and subjects
 
-## Database tables design
+## Database tables design:
 - Student table
   student id
   name
@@ -54,7 +54,7 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
   subject id
   status
 
-## Functional modules
+## Functional modules:
 
 Student module
 - add new student
