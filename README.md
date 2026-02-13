@@ -8,7 +8,7 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
 ## Objectives
 - To understand DBMS concepts 
 - To design relational database tables
-- To implement primary and foreign keys
+- To maintain structured records of students,teachers,subjects, and attendance
 - To use MariaDB with Intellij IDEA
 
 ## Technologies Used
@@ -18,10 +18,67 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
 - Intellij IDEA
 - Github
 
-## Database design
+## Tables
 - Student
 - Teacher
-- Class
+- Attendance
 - Subject
+
+## Relation
+- One teacher can teach multiple subjects
+- One student can have attendance records for multiple subjects
+- Attedance table connects students and subjects
+
+## Database tables design
+- Student table
+  student id
+  name
+  class
+  age
+
+- Teacher table
+  teacher id
+  name
+  subject specialization
+  experience
+
+- Subject table
+  subject code
+  subject name
+  teacher id
+  credits
+
+- Attendance table
+  attendance id
+  student id
+  subject id
+  status
+
+## Functional modules
+
+Student module
+- add new student
+- update student details
+- delete student record
+- view student deatils
+
+Teacher module
+- add teacher
+- assign subject
+- update teacher data
+- view teacher data
+
+Subject module
+- add subjects
+- assign teacher
+- update subject details
+- view subject list
+
+Attendance module
+- mark attedance
+- update attendance
+- view attadance by student
+- view attendance by subject
+
 
   
