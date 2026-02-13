@@ -46,13 +46,14 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
   subject code
   subject name
   teacher id
-  credits
+  
 
 - Attendance table
   attendance id
   student id
   subject id
   status
+  date
 
 ## Functional modules:
 
