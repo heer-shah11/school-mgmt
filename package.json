@@ -1,0 +1,26 @@
+{
+  "name": "school_mgmt",
+  "version": "1.0.0",
+  "description": "*A DBMS simple project using JavaScript and Mariadb*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heer-shah11/school-mgmt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/heer-shah11/school-mgmt/issues"
+  },
+  "homepage": "https://github.com/heer-shah11/school-mgmt#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mariadb": "^3.5.1"
+  }
+}
