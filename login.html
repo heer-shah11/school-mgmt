@@ -330,6 +330,9 @@
             (currentRole === 'student' && validStudent)) {
 
             showSuccess('Login successful! Welcome, ' + (currentRole === 'teacher' ? 'Teacher' : 'Student') + '!');
+            setTimeout(function(){
+            window.location.href = "dashboard.html";
+        }, 1000);
 
         } else {
             showError('Invalid credentials. Please try again.');
