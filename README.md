@@ -36,7 +36,7 @@ The system covers everything from registering students and teachers to tracking 
 - Attedance table connects students and subjects
 
 Schema overview:
-'''
+'''''
 ┌─────────────────┐         ┌──────────────────────┐
 │    Student      │         │       Teacher         │
 │─────────────────│         │──────────────────────│
@@ -71,7 +71,7 @@ Schema overview:
          │ status                │
          │ date                  │
          └──────────────────────┘
-'''
+'''''
 
 ## Functional modules:
 Student module
