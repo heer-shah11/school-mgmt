@@ -18,12 +18,11 @@ The system covers everything from registering students and teachers to tracking 
 - To use MariaDB with Intellij IDEA
 
 ## Technologies Used:
-- JavaScript- Front-end logic
-- HTML & CSS- User interface and styling
-- MariaDB- Dbms
-- Intellij IDEA
-- Github
-
+- Database: MariaDB
+- Frontend: HTML, JAVASCRIPT
+- IDE: IntelliJ idea
+- Language: SQL and javasript
+  
 ## Tables:
 - Student
 - Teacher
@@ -31,9 +30,10 @@ The system covers everything from registering students and teachers to tracking 
 - Subject
 
 ## Relation
-- One teacher can teach multiple subjects
-- One student can have attendance records for multiple subjects
-- Attedance table connects students and subjects
+- One to Many:
+   Ome teacher can teach multiple subjects
+- Many to Many:
+   Students and subjects are connected through the attedance table
 
 Schema overview:
 ```text
