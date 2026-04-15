@@ -72,30 +72,6 @@ Schema overview:
          │ date                  │
          └──────────────────────┘
 ```
-## Functional modules:
-Student module
-- add new student
-- update student details
-- delete student record
-- view student deatils
-
-Teacher module
-- add teacher
-- assign subject
-- update teacher data
-- view teacher data
-
-Subject module
-- add subjects
-- assign teacher
-- update subject details
-- view subject list
-
-Attendance module
-- mark attedance
-- update attendance
-- view attadance by student
-- view attendance by subject
 
 ## Team memebers:
 - Heer shah
