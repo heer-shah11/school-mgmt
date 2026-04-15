@@ -73,6 +73,11 @@ Schema overview:
          └──────────────────────┘
 ```
 
+## API endpoints, installation and functional modules:
+
+*Api endpoints, installation guide and functional modules are mentioned in wiki.*
+https://github.com/heer-shah11/school-mgmt/wiki/API-endpoints-and-Installation
+
 ## Team memebers:
 - Heer shah
 - Hemangi Makwana
