@@ -1,10 +1,15 @@
 <<<<<<< HEAD
 # School Management System
-*A DBMS simple project using JavaScript and Mariadb*
+*A DBMS mini project for managing student,teacher,subject and attendance records.*
 
 ## Project description:
 The school management system is a simple database project developed as part of a DBMS mini project.
 It uses  **MariaDB** for database management and **JavaScript** for front-end interaction.
+
+## About:
+The school managment system is a dbms mini project developed to explore and apply core dbms concepts. it uses mariadb as the database engine and a javascript+html frontend to provide a browser based interface for managing school records.
+
+The system covers everything from registering students and teachers to tracking subject assignments and daily attednace.
 
 ## Objectives:
 - To understand DBMS concepts 
@@ -56,8 +61,44 @@ It uses  **MariaDB** for database management and **JavaScript** for front-end in
   status
   date
 
-## Functional modules:
+Schema overview:
 
+┌─────────────────┐         ┌──────────────────────┐
+│    Student      │         │       Teacher         │
+│─────────────────│         │──────────────────────│
+│ student_id (PK) │         │ teacher_id (PK)       │
+│ name            │         │ name                  │
+│ class           │         │ subject               │
+│ age             │         │ specialization        │
+└────────┬────────┘         │ experience            │
+         │                  └──────────┬────────────┘
+         │                             │ 1
+         │ 1                           │
+         │                           MANY
+       MANY                            │
+         │                             ▼
+         │                  ┌──────────────────────┐
+         │                  │       Subject         │
+         │                  │──────────────────────│
+         │                  │ subject_code (PK)     │
+         │                  │ subject_name          │
+         │                  │ teacher_id (FK)       │
+         │                  └──────────┬────────────┘
+         │                             │
+         └──────────┬──────────────────┘
+                    │
+                    ▼
+         ┌──────────────────────┐
+         │      Attendance       │
+         │──────────────────────│
+         │ attendance_id (PK)    │
+         │ student_id (FK)       │
+         │ subject_id (FK)       │
+         │ status                │
+         │ date                  │
+         └──────────────────────┘
+
+## Functional modules:
 Student module
 - add new student
 - update student details
@@ -82,6 +123,13 @@ Attendance module
 - view attadance by student
 - view attendance by subject
 
+## Prerequisites 
+- MariaDB installed and running
+- IntelliJ IDEA or any code editor
+- A morden web browser
+
+
+   
 
 
   
