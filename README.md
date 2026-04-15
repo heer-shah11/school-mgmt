@@ -98,7 +98,7 @@ Attendance module
 - view attendance by subject
 
 ## Team memebers:
-Heer shah
-Hemangi makwana
-Sonam dwivedi
-
+- Heer shah
+- Hemangi Makwana
+- Sonam dwivedi
+  
